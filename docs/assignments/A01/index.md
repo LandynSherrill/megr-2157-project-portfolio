@@ -3,11 +3,11 @@
 ## Objective
 
 
-## Analyze
+### Analyze
 
 
-## Decide
+### Decide
 
 
-## Communicate
+### Communicate
 
