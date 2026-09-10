@@ -17,5 +17,7 @@ At this point, the part had been modeled, fixed, and load-bearing, so it was tim
 ## Part 3
 Now we were to compare the FEA and parametric axial deflections, which after computing are 0.00905 and 0.009, respectively. These are nearly the exact same, which makes sense considering they are using many of the same variables and values when being calculated. With them being so close, it could be chalked up to a rounding discrepancy. Now, if I were to choose between the two methods, I believe I would choose the FEA, simply for the fact that it is much more rigorous calculations used.
 
-## Communicate
+<img width="3867" height="2231" alt="Image" src="https://github.com/user-attachments/assets/904ab0d0-c1d3-4f6d-bfaa-eedd6dee37f8" />
 
+## 2157 Bonus
+For the 2157 only section, I decided to adjust some of the chosen values, setting F to 500 lbs, the radius to 4 and thus the area to 16pi, and substituting these into the direct tension elongation equation to find the new length. Since the material is kept the same, the modulus maintained, and the displacement had no apparent reason to be changed, either. Now, since, when solving for length, the cross-sectional area is in the numerator, I can safely predict that it will be much longer than our initial piece, since the value of the area is now 16 times that which it was before. The denominator, on the other hand, is the load, which increased from 300 to 500, not even doubling and thus being far outpaced by the 16 times multiplication happening above. This prediction turned out to be the case, giving us a length of 9047.8 in, much greater than our initial length value.
