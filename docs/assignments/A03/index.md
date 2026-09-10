@@ -21,3 +21,6 @@ Now we were to compare the FEA and parametric axial deflections, which after com
 
 ## 2157 Bonus
 For the 2157 only section, I decided to adjust some of the chosen values, setting F to 500 lbs, the radius to 4 and thus the area to 16pi, and substituting these into the direct tension elongation equation to find the new length. Since the material is kept the same, the modulus maintained, and the displacement had no apparent reason to be changed, either. Now, since, when solving for length, the cross-sectional area is in the numerator, I can safely predict that it will be much longer than our initial piece, since the value of the area is now 16 times that which it was before. The denominator, on the other hand, is the load, which increased from 300 to 500, not even doubling and thus being far outpaced by the 16 times multiplication happening above. This prediction turned out to be the case, giving us a length of 9047.8 in, much greater than our initial length value.
+
+# Part File
+[A3 Part Submit.html](https://github.com/user-attachments/files/32057865/A3.Part.Submit.html)
