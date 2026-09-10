@@ -1,4 +1,4 @@
-# A3 – [Topic]
+# A3 – Parametric & FEA
 
 ## Part 1
 The purpose of this assignment is to design a beam that meets our given criteria, having a tensioning load between 300 and 500 lbs, a displacement of 0.009 in, and an elastic modulus between 8.5*10^6 and 11.5*10^6. This also included it being modeled out of aluminum and having a round cross section. Considering this, I listed my choices of these givens and illustrated the bar as a cylindrical rod. Having all of this information, I could structure the tension elongation equation with the chosen givens, with the exception of the cross-sectional area. For this value, I decided to use a radius of 1, giving an area of 3.14. 
