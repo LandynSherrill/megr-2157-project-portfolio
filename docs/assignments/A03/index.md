@@ -8,6 +8,8 @@ Now that I had defined all of the variables in the equation besides the length, 
 ## Part 2
 At this point, the part had been modeled, fixed, and load-bearing, so it was time to create a mesh in order to get an FEA deflection map & a von Mises stress map. Once we had done this, our maximum stress was found to be 102.3 psi, much less than aluminum 1060's yield strength of 3999 psi, providing us with a safety factor of 39.1. 
 
+<img width="1170" height="702" alt="Image" src="https://github.com/user-attachments/assets/ec45736e-8feb-483b-9869-3421e6fbd7eb" />
+
 ## Part 3
 Now we were to compare the FEA and parametric axial deflections, which after computing are 0.00905 and 0.009, respectively. These are nearly the exact same, which makes sense considering they are using many of the same variables and values when being calculated. With them being so close, it could be chalked up to a rounding discrepancy. Now, if I were to choose between the two methods, I believe I would choose the FEA, simply for the fact that it is much more rigorous calculations used.
 
