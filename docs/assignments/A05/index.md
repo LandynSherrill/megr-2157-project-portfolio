@@ -330,4 +330,4 @@ Now, we look at Z. We have already established that Z uses an FN1 fit, and have 
 
 <img width="500" height="200" alt="IMG_1093" src="https://github.com/user-attachments/assets/3084b49c-3673-4da5-9797-f7e9b534a574" />
 
-
+The time spent on this project totalled to roughly 16 hours.
