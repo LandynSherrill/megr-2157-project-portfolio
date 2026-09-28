@@ -20,9 +20,11 @@ Design using a safety factor of 4 and applied load in between 500 lbf < F < 800 
 ___________________________________________________________
 
 # Initial Work
-The first thing that I did, after reading the introductory information and viewing the images, was draw out what the T-beam and mark the tolerances on each section, as given in the descriptive image above. I also made note of the given values, namely the safety factor of 4, the strap that would be used having a width of 3/4", and the load being a value between 500 and 800 lbs. Then, I made a rough draft of what the final bracket would look like with a front, right, and top view. At this point, I had already decided to use a symmetrical design, to minimize the workload. After this, I marked on my rough draft what the different sections were, as our appendices had shown. Now, having designated the sections, I began drawing the FBD's of each according to the given recommendations, treating section A as a uniformly loaded cantilever beam, B as an axially loaded bar, and C as a simply supported beam with a concentrated center load. Having come this far, I began speculating on what sections D and E could be modeled as. Eventually, I drew them out and saw that D could be modeled as an axially loaded bar, like B, while E could be modeled as a uniformly loaded cantilever beam, like A. Now, having laid out what I would be dealing with, I finally decided on the load value and the material type. Of the three material types, the steel had the best elasticity and had the intermediate tensile strength among the three, which I figured would be a useful combination of properties for the intended purpose. For the load, I decided on 600 lbs. as an even middle-ground value.
+The first thing that I did, after reading the introductory information and viewing the images, was draw out what the T-beam and mark the tolerances on each section, as given in the descriptive image above. I also made note of the given values, namely the safety factor of 4, the strap that would be used having a width of 3/4", and the load being a value between 500 and 800 lbs. Then, I made a rough draft of what the final bracket would look like with a front, right, and top view. At this point, I had already decided to use a symmetrical design, to minimize the workload. After this, I marked on my rough draft what the different sections were, as our appendices had shown. 
 
-<img width="500" height="225" alt="IMG_1094" src="https://github.com/user-attachments/assets/99bc733f-cc86-4ce0-9d92-b8fdb7bc1dd3" />
+Now, having designated the sections, I began drawing the FBD's of each according to the given recommendations, treating section A as a uniformly loaded cantilever beam, B as an axially loaded bar, and C as a simply supported beam with a concentrated center load. Having come this far, I began speculating on what sections D and E could be modeled as. Eventually, I drew them out and saw that D could be modeled as an axially loaded bar, like B, while E could be modeled as a uniformly loaded cantilever beam, like A. Now, having laid out what I would be dealing with, I finally decided on the load value and the material type. Of the three material types, the steel had the best elasticity and had the intermediate tensile strength among the three, which I figured would be a useful combination of properties for the intended purpose. For the load, I decided on 600 lbs. as an even middle-ground value.
+
+<img width="500" height="250" alt="IMG_1094" src="https://github.com/user-attachments/assets/99bc733f-cc86-4ce0-9d92-b8fdb7bc1dd3" />
 
 <img width="500" height="250" alt="IMG_1095" src="https://github.com/user-attachments/assets/aaa1cd0c-0101-454e-bea9-005d37c8eaed" />
 
@@ -49,7 +51,7 @@ Assumptions:
 * Neglect torque
 
 With these knowns and having made choice assumptions, we may now solve for r, the only remaining unknown value
-<img width="500" height="200" alt="IMG_1080" src="https://github.com/user-attachments/assets/e5435a53-1e32-4fd2-b518-3252f271aa6a" />
+<img width="600" height="300" alt="IMG_1080" src="https://github.com/user-attachments/assets/e5435a53-1e32-4fd2-b518-3252f271aa6a" />
 
 Section A Dimensions: r = 0.375", L = 1"
 
@@ -73,7 +75,7 @@ Assumptions:
 * Neglect torque
 
 Given these knowns and assumptions, we may now solve for the width of the section, d.
-<img width="500" height="200" alt="IMG_1081" src="https://github.com/user-attachments/assets/0ad62e13-9e8a-4671-89b2-37656f873696" />
+<img width="600" height="300" alt="IMG_1081" src="https://github.com/user-attachments/assets/0ad62e13-9e8a-4671-89b2-37656f873696" />
 
 Section B Dimensions: h = 1", d = 0.1104", L = 0.750"
 
@@ -99,7 +101,7 @@ Assumptions:
 * Neglect Torque
 
 Given these knowns and assumptions, we can now solve for the height of the section, h.
-<img width="500" height="200" alt="IMG_1082" src="https://github.com/user-attachments/assets/a13b895b-e679-4817-9f5e-182a2ab6009d" />
+<img width="600" height="300" alt="IMG_1082" src="https://github.com/user-attachments/assets/a13b895b-e679-4817-9f5e-182a2ab6009d" />
 
 Section C Dimensions: L = 2.496", d = 1", h = 0.5566"
 
@@ -126,7 +128,7 @@ Assumptions:
 
 With this, we may now calculate the length of the section.
 
-<img width="500" height="200" alt="IMG_1083" src="https://github.com/user-attachments/assets/a11889df-d538-4b71-8a4e-45de383cf44e" />
+<img width="600" height="300" alt="IMG_1083" src="https://github.com/user-attachments/assets/a11889df-d538-4b71-8a4e-45de383cf44e" />
 
 Section D Dimensions: L = 0.0414", d = 1", h = 1.499"
 
@@ -151,7 +153,7 @@ Assumptions:
 * Neglect torque
 
 We can now, with these values and assumptions, find the height of the section.
-<img width="500" height="200" alt="IMG_1084" src="https://github.com/user-attachments/assets/f16ea88b-fdb4-4776-92cd-549748c420c9" />
+<img width="600" height="300" alt="IMG_1084" src="https://github.com/user-attachments/assets/f16ea88b-fdb4-4776-92cd-549748c420c9" />
 
 Section E Dimensions: L = 0.9992", d = 1", h = 0.3522"
 
@@ -176,7 +178,7 @@ Assumptions:
 * The shape of the section is cylindrical, and will hold the strap w/o slippage
 * The section's length must be greater than the strap's width (3/4"), so assume L = 1"
 
-<img width="500" height="200" alt="IMG_1085" src="https://github.com/user-attachments/assets/0e050b8c-ac8a-41a8-84cc-9fc3a9e1d9b6" />
+<img width="600" height="300" alt="IMG_1085" src="https://github.com/user-attachments/assets/0e050b8c-ac8a-41a8-84cc-9fc3a9e1d9b6" />
 
 Section A Dimensions: L = 1", dia = 0.5388"
 
@@ -204,7 +206,7 @@ Assumptions:
 
 Now we can calculate the width of the section.
 
-<img width="500" height="200" alt="IMG_1088" src="https://github.com/user-attachments/assets/b139eb8d-732d-4024-9a92-0ee9f252b64e" />
+<img width="600" height="300" alt="IMG_1088" src="https://github.com/user-attachments/assets/b139eb8d-732d-4024-9a92-0ee9f252b64e" />
 
 Section B Dimensions: L = 0.5388", h = 0.8", d = 0.0492"
 
@@ -229,7 +231,7 @@ Assumptions:
 
 Now we may calculate the height of the section.
 
-<img width="500" height="200" alt="IMG_1089" src="https://github.com/user-attachments/assets/c5d03299-411d-4cf7-b5f1-b0e44c38f7a5" />
+<img width="600" height="300" alt="IMG_1089" src="https://github.com/user-attachments/assets/c5d03299-411d-4cf7-b5f1-b0e44c38f7a5" />
 
 Section C Dimensions: L = 2.496", d = 1", h = 0.1288"
 
@@ -254,7 +256,7 @@ Assumptions:
 
 Now the length of the section can be calculated.
 
-<img width="500" height="200" alt="IMG_1090" src="https://github.com/user-attachments/assets/a9961bb2-0626-4e70-868b-51677efd4085" />
+<img width="600" height="300" alt="IMG_1090" src="https://github.com/user-attachments/assets/a9961bb2-0626-4e70-868b-51677efd4085" />
 
 Section D Dimensions: L = 0.0248", h = 1.499", d = 1"
 
@@ -278,7 +280,7 @@ Assumptions:
 
 Now we may find the value for the section's height.
 
-<img width="500" height="200" alt="IMG_1091" src="https://github.com/user-attachments/assets/4e5ce0f1-eae9-4626-be18-a94125885617" />
+<img width="600" height="300" alt="IMG_1091" src="https://github.com/user-attachments/assets/4e5ce0f1-eae9-4626-be18-a94125885617" />
 
 Section E dimensions: L = 0.9992", d = 1", h = 0.2915"
 
