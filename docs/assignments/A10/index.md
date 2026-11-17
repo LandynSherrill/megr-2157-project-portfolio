@@ -35,10 +35,11 @@ I calculated the stress in the nut(https://www.mcmaster.com/95120A592/) that was
 
 ![My Image](crossheaddesign1.png)
 
+Since we had freedom to design our crosshead, I gave reasonable length and height to the design and found width by the flange nut dimension. Then, I found the bending stress and modulus of elasticity to determine which material would be appropriate for these dimensions.
+
 ![My Image](crossheaddesign2.png)
 
 After multiplying the calculated modulus of elasticity and bending stress for the crosshead it was decided that the material for the crosshead would be 6061-T6 Aluminum. Both the yield strength and the modulus of elasticity of the material is several times higher to what was calculated for the crosshead.
-
 
 ### Tabulating Costs- Jeffrey 
 
@@ -62,3 +63,7 @@ With the parametric modeling, the first thing done was taking note of all of the
 Jonathan- I learned how to model equations to choose a leadscrew. Working as a group to finish this assignment taught me to be mindful of doing my work earlier so my teammates would not get behind on their sections. My section and documentation took around 4 hours. 
 
 Landyn - I continued to learn the intricacies of solidworks and how helpful certain processes are. Having to consider my teammates did force me to keep in mind my timeframe and scheduling. My section took around 8 hours.
+
+Jeffrey- With my section I learned how to design a crosshead for a tensile tester and learned about the components that are needed for a tensile tester. I did this section quickly, so the CAD didn't have to be a last-minute duty. My section took me approximately 4 hours.
+
+CAD Models: [A10 Models.zip](https://github.com/user-attachments/files/34973834/A10.Models.zip)
